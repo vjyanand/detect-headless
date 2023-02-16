@@ -127,7 +127,7 @@ function webdriverWriteResult(resultBlock, webdriver) {
 function testTimeElapse(resultBlock) {
   let start = Date.now();
 
-  alert("Press OK");
+//  alert("Press OK");
 
   let elapse = Date.now() - start;
   timeElapseWriteResult(resultBlock, elapse);
